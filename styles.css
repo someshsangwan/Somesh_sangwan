@@ -1,0 +1,36 @@
+.container {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  .item-container {
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    padding: 10px;
+    margin-right: 20px;
+  }
+  
+  .item {
+    background-color: lightblue;
+    margin-bottom: 5px;
+    padding: 5px;
+  }
+  
+  .dropzone {
+    background-color: lightgray;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .success-message {
+    color: green;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
